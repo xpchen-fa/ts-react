@@ -1,0 +1,13 @@
+.overview{
+    width: 100%;
+    font-size: 14px;
+    color: #99a9c0;
+    .count{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .count, .title{
+        margin: 0;
+        text-align: center;
+    }
+}

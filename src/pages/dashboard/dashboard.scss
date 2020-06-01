@@ -1,0 +1,94 @@
+@import '@/assets/css/variable.scss';
+
+.container{
+    margin: 15px !important;
+}
+.data-box{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    .iconType{
+        border-radius: 5px 0 0 5px;
+        padding: 10px 30px;
+        font-size: 45px;
+        color: #fff;
+        &.green{
+            background-color: $primary-color ;
+        }
+        &.blue{
+            background-color: $info-color ;
+        }
+        &.yellow{
+            background-color: $warning-color;
+        }
+        &.red{
+            background-color: $error-color;
+        }
+    }
+}
+
+.profile{
+    background-color: #fff;
+    padding: 10px 0 0 0;
+    border-radius: 5px;
+}
+.top-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .avatar{
+        color: $subsidiary-color;
+        font-size: 48px;
+        padding: 20px;
+    }
+    .name{
+        font-size: 18px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
+.top-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 8px 10px;
+    .title{
+        font-size: 18px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
+.cell{
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    border-top: 1px solid $border-color-base;
+    .anticon{
+        margin-top: 5px;
+        color: $subsidiary-color;
+    }
+    .title{
+        flex: 1;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .value{
+        text-align: right;
+    }
+}
+.cell{
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    border-top: 1px solid $border-color-base;
+    .name{
+        margin: 0 100px;
+    }
+    .tags{
+        flex: 1;
+    }
+    .progress{
+        width: 300px;
+    }
+}

@@ -1,0 +1,59 @@
+@import '@/assets/css/variable.scss';
+.login-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rm-login{
+    width: 900px;
+    height: 400px;
+    &>div{
+      padding: 30px;
+    }
+    .login-form{
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .form-header{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        span{
+          color: $primary-color;
+        }
+      }
+      .form{
+        input{
+          margin-bottom: 20px;
+          width: 100%;
+          height: 45px;
+        }
+        button{
+          height: 45px;
+          width: 100%;
+        }
+      }
+      .form-footer{
+        margin-top: 10px;
+        .forgot{
+          float: right;
+        }
+      }
+    }
+    .login-ad{
+      height: 100%;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 0 $btn-border-radius $btn-border-radius 0;
+      background: url('../../assets/img/login-bg.jpg');
+      .photo-author{
+        position: absolute;
+        right: 6px;
+        bottom: 45px;
+      }
+    } 
+  }
